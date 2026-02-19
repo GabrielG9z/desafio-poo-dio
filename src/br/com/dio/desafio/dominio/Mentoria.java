@@ -16,13 +16,9 @@ public class Mentoria extends Conteudo{
         return data;
     }
 
-
-
     public void setData(LocalDate data) {
         this.data = data;
     }
-
-
 
     @Override
     public String toString() {
@@ -35,4 +31,3 @@ public class Mentoria extends Conteudo{
 
 
     }
-}
